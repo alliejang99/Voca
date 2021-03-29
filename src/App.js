@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import EmptyPage from "./components/EmptyPage";
 import CreateWord from "./components/CreateWord";
 import CreateDay from "./components/CreateDay";
+import DeleteDay from "./components/DeleteDay";
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
           </Route>
           <Route path="/create_day">
             <CreateDay />
+          </Route>
+          <Route path="/create_delday">
+            <DeleteDay />
           </Route>
           <Route>
             <EmptyPage />
